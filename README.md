@@ -43,3 +43,9 @@ git push -f production main
 
 Go to your GreptimeCloud instance's web UI, and refresh the page, you
 get all these dashboards.
+
+## Screenshots
+
+![Screenshot](https://github.com/user-attachments/assets/ab78950f-f80f-4831-907f-02f1185a2609)
+
+![Screenshot](https://github.com/user-attachments/assets/c96e83b5-fdf3-4aaa-979e-2fa3ef8584f3)
