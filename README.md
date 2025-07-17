@@ -13,7 +13,7 @@ Claude Code usage data into GreptimeDB, using OpenTelemetry.
 
 ## Dashboard Installation
 
-Thanks for our gitops phylosophy of managing dashboards, you can
+Thanks for our gitops philosophy of managing dashboards, you can
 import our pre-built ones with just a few git operations.
 
 First, clone this repo:
