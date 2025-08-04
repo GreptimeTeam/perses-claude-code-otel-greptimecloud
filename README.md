@@ -16,6 +16,8 @@ collecting Claude Code usage data into GreptimeDB, using OpenTelemetry.
 
 ## Dashboard Installation
 
+### Start from Scratch
+
 Thanks for our gitops philosophy of managing dashboards, you can
 import our pre-built ones with just a few git operations.
 
@@ -38,7 +40,8 @@ repo:
 git remote add production <git-repo-url>
 ```
 
-Push to your instance's git repository:
+Force push to your instance's git repository. **Warn: This will overwrites all
+your previous dashboards, make sure you are starting from scratch.**
 
 ```
 git push -f production main
@@ -46,6 +49,16 @@ git push -f production main
 
 Go to your GreptimeCloud instance's web UI, and refresh the page, you
 get all these dashboards.
+
+
+### Add dashboards to you existing GreptimeCloud instance
+
+If you already have some dashboards in your instance, you cannot use this repo
+directly as git. But you can still copy the JSON content from each dashboard
+definition JSON file in this repo.
+
+Click new file from our Workbench, add open the dashboard code editor from the
+right up corner of dashboard edit UI. Paste the JSON definition and save.
 
 ## Screenshots
 
