@@ -8,8 +8,11 @@ Code](https://docs.anthropic.com/en/docs/claude-code/overview)'s
 OpenTelemetry data, exported to
 [GreptimeCloud](https://greptime.cloud) instances.
 
-For more information, see our upcoming blog post about collecting
-Claude Code usage data into GreptimeDB, using OpenTelemetry.
+## Data Ingestion
+
+For more information, see our [blog
+post](https://greptime.com/blogs/2025-07-16-claude-code-with-greptime) about
+collecting Claude Code usage data into GreptimeDB, using OpenTelemetry.
 
 ## Dashboard Installation
 
